@@ -17,6 +17,18 @@ body {
 	border-right: 1px white solid;
 }
 
+a {
+	color:white;
+}
+
+a:visted {
+	color: #fbc045;
+}
+
+a:hover {
+	color: #aa3728;
+}
+
 main {
 	padding-left: 20px;
 }
@@ -27,17 +39,18 @@ ul {
 
 header	{
 	text-align: center;
+	font-family: georgia, serif;
 }
 
-nav li {
-	list-style: none;
-	color: white;
-}
 
 h1 {
 	background: url(images/logo.png) no-repeat;
 	height: 180px;
 	text-indent: -9999px;
+}
+
+h2, h3, h4 {
+	margin: 10px 0;
 }
 
 footer	{
