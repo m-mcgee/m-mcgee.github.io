@@ -18,8 +18,14 @@ body {
 	border-right: 1px white solid;
 }
 
+
 .top {
 	text-align: center;
+}
+
+#banner {
+	width: 102%;
+	margin-left: -20px;
 }
 
 header nav {
