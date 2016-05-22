@@ -107,12 +107,31 @@ footer	{
   }
   	header nav ul {
   		text-align: left;
-  		margin: 48px; 
+  		margin-top: 48px; 
+  		margin-left: 20px;
   	}
 
   	header nav ul li {
 		display: block;
 	}
-
 }
 
+@media screen and (max-width: 820px) {
+	body {
+		font-size: .4em;
+	}
+	.top {
+		text-align: left;
+	}
+	#banner {
+		width: 40%;
+  }
+  	header nav ul {
+  		text-align: left;
+  		margin-top: 48px; 
+  	}
+
+  	header nav ul li {
+		display: block;
+	}
+}
